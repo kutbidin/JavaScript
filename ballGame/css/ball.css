@@ -1,0 +1,95 @@
+body {
+    background-image: url(../imgs/bg_superman.jpg);
+    width:1020px;
+    min-width:800px;
+    height: 600px;
+    min-height: 600px;
+    /* position: absolute; */
+    /* top: 0; */
+    margin:auto;
+    color: #fff;
+   font:30px/40px Effra-Medium, Effra Medium, Arial, Helvetica, sans-serif;     
+    overflow: hidden;
+}
+
+div.main {
+    margin:10 50% auto auto;
+    width:1000px;
+    height:100%;
+    background:rgba(34, 23, 76, 0.18);
+    padding: 10px;
+    border-radius: 6px;
+  display:grid;
+
+}
+div.menu{ 
+    width:200px;
+    min-width: 200px;
+    min-height: 600px;
+    background-color: rgba(50, 57, 70,0.75);
+    margin:auto 2px auto auto;
+    border-radius: 6px;
+  grid-column: 1;
+}
+div.gameShell{
+    min-width: 800px;
+    min-height: 600px;
+    background: rgb(92, 104, 128);
+    margin:auto auto auto 2px;
+    border-radius: 6px;
+  grid-column: 2;
+}
+div.settings{
+    display:none;
+    position: absolute;
+    min-width: 1020px;
+    min-height: 620px;
+    width: 1020px;
+    height: 640px;
+    left:10%;
+    background: rgba(92, 104, 128,0.6);
+    color:#718d26;
+    font-size: 24px;
+    margin:auto;
+    border-radius: 6px;
+}
+canvas{
+    background: rgb(85, 88, 94);
+    width: 800px;
+    height:600px;
+    padding:1px;
+    display: block;
+    margin:0 auto;
+    border-radius: 6px;
+  
+}
+span.score{
+    padding:2px;
+    color:rgba(9, 190, 100, 0.918);
+    font-size: 20px;
+}
+p.score{
+    font-size: 16px;
+    font-weight: bolder;
+    color:rgb(26, 122, 114);
+    padding:10px;
+}
+button{
+    block-size:70px;
+    width:180px;
+    font-size:40px;
+    font-weight: bold;
+    padding:10px;
+    border: 1px solid green;
+    border-radius: 6px;
+    margin:4 auto auto 10;
+}
+button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    transition: 0.4s;
+}
+button:disabled{
+    background-color: rgb(202, 214, 202); /* Green */
+    color: rgb(118, 122, 99);
+}

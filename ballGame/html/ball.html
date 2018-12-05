@@ -1,0 +1,43 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> moving ball </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/ball.css" />
+    <script src="../js/ball.js"></script>
+</head>
+
+<body onload="init()">
+
+
+    <div id="settings" class="settings">
+        <p>Speed:</p>
+        <p>Speed:</p>
+        <p>Speed:</p>
+        <button id="settings_ok" onclick="settingsOk()">Apply</button>
+        <button id="settings_cancel" onclick="settingsCancel()">Cancell</button>
+    </div>
+
+    <div id="main" class="main">
+
+        <div class="menu" id="menu">
+            <p class="score">Score:<span id="score" class="score"></span></p>
+            <button id="btn_start" onclick="startGame()">Start</button>
+            <button id="btn_pause" onclick="pauseGame()">Pause</button>
+            <button id="btn_resume" onclick="resumeGame()">Resume</button>
+            <button id="btn_restart" onclick="restartGame()">Restart</button>
+            <button id="btn_settings" onclick="gameSettings()">Settings</button>
+        </div>
+        <div id="gameShell" class="gameShell">
+            <canvas id="canvas" class="canvas">
+
+            </canvas>
+        </div>
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,97 @@
+
+body {
+	background: #00c4b3 url(../imgs/bg_superman.jpg) no-repeat;
+    width:800px;
+    min-width:800px;
+    height: 600px;
+    min-height: 600px;
+    /* position: absolute; */
+    /* top: 0; */
+    margin:auto;
+    color: #fff;
+   font:30px/40px Effra-Medium, Effra Medium, Arial, Helvetica, sans-serif;     
+    overflow: hidden;
+}
+div.main{
+    margin:10 50% auto auto;
+    width:1040px;
+    height: 640px;
+    background: rgba(119, 91, 91, 0.219);
+    border-radius: 4px;
+    display: grid;
+}
+div.menu{ 
+    width:200px;
+    min-width: 200px;
+    min-height: 600px;
+    background-color: rgba(50, 57, 70,0.75);
+    margin:auto 2px auto auto;
+    border-radius: 6px;
+  grid-column: 1;
+}
+
+div.canvas{
+    border:2px solid rgb(159, 196, 104);
+    border-radius: 6px;
+    width:800px;
+    height: 600px;
+    margin: auto auto auto 2px;
+    background: #2d3131;
+    grid-column: 2;
+}
+div.gameOver{
+    display: none;
+    width: 798px;
+    height: 600px;
+    color: #718d26;
+    background: #196861;
+    position: absolute;
+    margin: auto auto auto 2px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 36px;
+}
+div.settings{
+    display:none;
+    position: absolute;
+    min-width: 1020px;
+    min-height: 620px;
+    width: 1020px;
+    height: 640px;
+    background: #86a09e;
+    color:#718d26;
+    font-size: 24px;
+    margin:auto;
+    padding:10px;
+    border-radius: 6px;
+}
+span.score{
+    padding:2px;
+    color:rgba(9, 190, 100, 0.918);
+    font-size: 20px;
+}
+p.score{
+    font-size: 16px;
+    font-weight: bolder;
+    color:rgb(26, 122, 114);
+    padding:10px;
+}
+button{
+    block-size:70px;
+    width:180px;
+    font-size:40px;
+    font-weight: bold;
+    padding:10px;
+    border: 1px solid green;
+    border-radius: 6px;
+    margin:4 auto auto 10;
+}
+button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    transition: 0.4s;
+}
+button:disabled{
+    background-color: rgb(202, 214, 202); /* Green */
+    color: rgb(118, 122, 99);
+}

@@ -1,0 +1,41 @@
+body{
+    background:black;
+}
+div.main{
+    max-width: 800px;
+    max-height: 600px;
+    margin:20px auto ;
+    background: darkslategrey;
+    padding: 10px;
+    //text-align: center;
+
+}
+canvas{
+    background: rgb(85, 88, 94);
+    width: 800px;
+    height:600px;
+    padding:10px;
+    display: block;
+    margin:0 auto;
+  
+}
+img.bulb{
+    width:300px;
+    height:500px;
+    
+}
+div.divb{
+    border: 2px solid blue;
+}
+div.bank{
+    //background-color:#065056; 
+    color:#065056;
+    font-size: 25px;
+}
+div.game{
+    max-width: 800px;
+    max-height: 600px;
+    background: blue;
+    padding:10px;
+
+}
